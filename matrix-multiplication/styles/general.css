@@ -1,0 +1,259 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  font-family: calibri;
+}
+
+
+div.header-and-nav-div {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 70px;
+  border-left: 10px solid rgb(200, 0, 0);
+  border-right: 10px solid rgb(200, 0, 0);
+}
+
+
+div.head-div {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  min-width: 600px;
+
+}
+
+
+div.head-div img.logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+nav {
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(240, 240, 240));
+}
+
+
+nav ul.nav-list {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 900px;
+  min-width: 600px;
+  list-style-type: none;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+
+nav ul.nav-list li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul.nav-list li a {
+  color: black;
+  font-size: 0.9em;
+  display: inline-block;
+  margin: 0;
+  padding: 0 40px;
+  line-height: 30px;
+  text-decoration: none;
+  transition: 0.4s all;
+}
+
+
+nav ul.nav-list li a:hover {
+  color: white;
+  background-color: rgb(200, 0, 0);
+  border-radius: 30px;
+}
+
+
+nav ul.nav-list li a:active {
+  background-color: rgb(0, 200, 0);
+}
+
+
+h1 {
+  display: none;
+}
+
+
+div.head-div p.head-para {
+  float: right;
+  padding: 0;
+  margin: 15px 0 0 0;
+  text-align: right;
+  color: gray;
+  width: 400px;
+}
+
+
+/*********************************
+OVDE IDE STILIZACIJA TELA
+**********************************/
+main {
+  min-height: 1000;
+  padding-top: 20px;
+  margin: 0;
+  width: 100%;
+}
+
+
+section {
+  padding: 10px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  min-width: 600px;
+}
+
+
+section h2 {
+  font-size: 1.4em;
+  margin: 10px 0;
+  color: gray;
+}
+
+
+section p {
+  padding-left: 20px;
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
+
+div.format {
+  width: 400px;
+  border: 1px solid rgb(240, 240, 240);
+  margin: 30px auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-image: linear-gradient(135deg, rgb(240, 240, 240), rgb(255, 255, 255));
+}
+
+
+div.format label {
+  text-align: right;
+  display: inline-block;
+  width: 100px;
+}
+
+
+div.format input {
+  margin: 10px;
+  width: 50px;
+}
+
+
+form input[type="submit"] {
+  width: 200px;
+}
+
+
+div.matrix {
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+div.matrix table {
+  vertical-align: middle;
+  display: inline-block;
+  padding: 20px;
+  margin: 0 auto;
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  border-radius: 30px;
+}
+
+
+div.matrix input {
+  padding: 5px;
+  width: 35px;
+  border: 1px solid gray;
+  background-image: linear-gradient(135deg, rgb(240, 240, 240), rgb(255, 255, 255));
+}
+
+
+.btn-div {
+  text-align: center;
+}
+
+
+.btn-div button {
+  margin-top: 10px;
+  padding: 5px 20px;
+}
+
+
+div.matrix table tr td.prod-result {
+  padding: 5px;
+}
+
+
+/***********************************
+*footer****
+************************************/
+footer {
+  height:40px;
+  width: 100%;
+  color: black;
+  text-align: right;
+  background-image: linear-gradient(to bottom, rgb(230, 230, 230), rgb(240, 240, 240));
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.foot-para {
+  color: gray;
+  font-style: italic;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  min-width: 600px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+
+.foot-para p {
+  margin:0 ;
+  background-image: url('../images/picobyte-logo.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+
+/*.foot-para img {
+  display: inline-block;
+  vertical-align: middle;
+}*/
